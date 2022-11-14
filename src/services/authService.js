@@ -11,7 +11,7 @@ export function SignIn() {
 export function SignOut() {
   return (
     <div className="flex items-center gap-2">
-      <p className="hidden md:block">Hello, {auth.currentUser.displayName} &nbsp;</p>
+      <p className="hidden mb:block">Hello, {auth.currentUser.displayName} &nbsp;</p>
       <button className={btnClass} onClick={() => signOut(auth)}>Sign Out</button>
     </div>
   );

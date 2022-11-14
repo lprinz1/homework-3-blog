@@ -1,7 +1,10 @@
-# A Blog Starter App
+# This is a simple blog app
 
-This is a trivial blog app, started with create-react-app.
+- You can sign in with your google account and view posts
+- If you have access, you can create and delete posts
+- When you click a post, it will become highlighted in the left side bar
 
-It works entirely within memory, so reloads blow everything away except for the first two mock articles.
+[View the app here](https://react-blog-e7761.web.app/)
 
-This repo is designed for you to fork and extend with (1) better CSS and (2) a real back end, with authentication and a database.
+Created using [React JS](https://reactjs.org/) and [Tailwind CSS](https://tailwindcss.com/)
+
